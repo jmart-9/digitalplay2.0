@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DigitalPlay - Internet Ultrarrápido</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script> 
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-gray-800 shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-3 py-3 flex justify-between items-center">
+  <!-- Logo -->
+    <div class="flex items-center space-x-3">
+        <img src="/images/logo.png" alt="Logo OpticalPlay" class="h-20 w-auto object-contain" />
+    </div>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#inicio" class="hover:text-orange-400 transition">Inicio</a> 
+        <a href="#sobre-nosotros" class="hover:text-orange-400 transition">Sobre Nosotros</a>
+        <a href="#servicios" class="hover:text-orange-400 transition">Servicios</a>
+        <a href="#planes" class="hover:text-orange-400 transition">Planes</a>
+        <a href="metodos-pago" class="hover:text-orange-400 transition">Pagos</a>
+        <a href="#speedtest" class="hover:text-orange-400 transition">Speed Test</a>
+        <a href="#contrata" class="bg-orange-500 hover:bg-orange-600 px-5 py-2 rounded-full font-medium transition">Contrata Ahora</a>
+      </nav>
+      <button id="menu-toggle" class="md:hidden text-white focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-gray-700 px-4 pb-4 space-y-2">
+      <a href="#inicio" class="block py-2 hover:text-orange-400 transition">Inicio</a>
+      <a href="#sobre-nosotros" class="block py-2 hover:text-orange-400 transition">Sobre Nosotros</a>
+      <a href="#servicios" class="block py-2 hover:text-orange-400 transition">Servicios</a>
+      <a href="#planes" class="block py-2 hover:text-orange-400 transition">Planes</a>
+      <a href="metodos-pago" class="hover:text-orange-400 transition">Pagos</a>
+      <a href="#speedtest" class="block py-2 hover:text-orange-400 transition">Speed Test</a>
+      <a href="#contrata" class="block mt-3 bg-orange-500 hover:bg-orange-600 py-2 px-4 rounded-full font-medium">Contrata Ahora</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="py-20 px-4 text-center bg-gray-900">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Internet ultrarrápido que te lleva al espacio.</h1>
+      <p class="text-lg text-gray-300 mb-8">Únete a DigitalPlay y experimenta la conexión más rápida del universo.</p>
+      <a href="#planes" class="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-full text-white font-semibold transition">Ver Planes Disponibles</a>
+    </div>
+    <div class="mt-12">
+      <img src="/images/img1.jpg" alt="Astronauta navegando con internet" class="mx-auto rounded-lg shadow-xl max-w-full h-auto" />
+    </div>
+  </section>
+
+  <!-- Sobre Nosotros -->
+  <section id="sobre-nosotros" class="py-20 px-4 bg-gray-800 text-center">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8">Sobre Nosotros</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div class="text-left">
+          <p class="text-gray-300 leading-relaxed">En DigitalPlay somos una empresa dedicada a brindar servicios de internet de alta velocidad mediante tecnología de fibra óptica. Nuestra misión es conectar hogares y empresas con una red estable, segura y ultrarrápida.</p>
+          <p class="text-gray-300 leading-relaxed mt-4">Con años de experiencia en telecomunicaciones, nos especializamos en ofrecer soluciones modernas y confiables para todo tipo de necesidades digitales. ¡Llevamos tu conexión al infinito y más allá!</p>
+        </div>
+        <div>
+          <img src="/images/astronauta.jpg" alt="Equipo profesional" class="rounded-lg shadow-lg w-full h-auto" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-20 px-4 bg-gray-900 text-center">
+    <h2 class="text-3xl font-bold mb-10">Nuestros Servicios</h2>
+    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg transform transition hover:-translate-y-1">
+        <svg class="w-12 h-12 mx-auto text-orange-500 mb-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M13 10V3L4 14h7v7l9-11h-7z" />
+        </svg>
+        <h3 class="text-xl font-semibold mb-2">Fibra Óptica</h3>
+        <p class="text-gray-300">Internet de ultra alta velocidad con latencia mínima.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg transform transition hover:-translate-y-1">
+        <svg class="w-12 h-12 mx-auto text-orange-500 mb-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <h3 class="text-xl font-semibold mb-2">Conexión 24/7</h3>
+        <p class="text-gray-300">Red operativa las 24 horas del día, los 7 días de la semana.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg transform transition hover:-translate-y-1">
+        <svg class="w-12 h-12 mx-auto text-orange-500 mb-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        </svg>
+        <h3 class="text-xl font-semibold mb-2">Soporte Técnico</h3>
+        <p class="text-gray-300">Atención personalizada para resolver cualquier inconveniente.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Planes -->
+  <section id="planes" class="py-20 px-4 bg-gray-800 text-center">
+    <h2 class="text-3xl font-bold mb-10">Nuestros Planes</h2>
+    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-gray-700 border border-gray-600 p-6 rounded-lg shadow-lg transform transition hover:-translate-y-1">
+        <h3 class="text-xl font-semibold mb-2">Básico</h3>
+        <p class="text-sm text-gray-300 mb-4">Ideal para uso básico en el hogar.</p>
+        <ul class="text-left text-sm text-gray-300 space-y-2 mb-6">
+          <li>• Fibra óptica</li>
+          <li>• Velocidad estándar</li>
+          <li>• Soporte básico</li>
+        </ul>
+        <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más información%20del%20paquete%20bronce%20" target="_blank" class="block bg-orange-500 hover:bg-orange-600 py-2 px-4 rounded-full">Contrata Ahora</a> 
+      </div>
+      <div class="bg-gray-700 border border-gray-600 p-6 rounded-lg shadow-lg transform transition scale-105">
+        <h3 class="text-xl font-semibold mb-2">Estándar</h3>
+        <p class="text-sm text-gray-300 mb-4">Perfecto para usuarios avanzados y pequeñas empresas.</p>
+        <ul class="text-left text-sm text-gray-300 space-y-2 mb-6">
+          <li>• Fibra óptica</li>
+          <li>• Velocidad media-alta</li>
+          <li>• Soporte técnico prioritario</li>
+        </ul>
+        <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más información%20del%20paquete%20plata%20" target="_blank" class="block bg-orange-500 hover:bg-orange-600 py-2 px-4 rounded-full">Contrata Ahora</a>
+      </div>
+      <div class="bg-gray-700 border border-gray-600 p-6 rounded-lg shadow-lg transform transition hover:-translate-y-1">
+        <h3 class="text-xl font-semibold mb-2">Premium</h3>
+        <p class="text-sm text-gray-300 mb-4">Diseñado para grandes empresas y conexiones críticas.</p>
+        <ul class="text-left text-sm text-gray-300 space-y-2 mb-6">
+          <li>• Fibra óptica</li>
+          <li>• Velocidad máxima</li>
+          <li>• Soporte VIP 24/7</li>
+        </ul>
+        <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más información%20del%20paquete%20oro%20" target="_blank" class="block bg-orange-500 hover:bg-orange-600 py-2 px-4 rounded-full">Contrata Ahora</a>
+      </div>
+    </div>
+  </section>
+
+<!-- Sección Métodos de Pago -->
+<section id="metodos-pago" class="py-20 px-4 bg-gray-900 text-center">
+  <div class="max-w-5xl mx-auto">
+    <!-- Título -->
+    <h2 class="text-3xl font-bold mb-4">Formas de Pago Aceptadas</h2>
+    <p class="text-gray-400 max-w-2xl mx-auto mb-12">
+      Para tu comodidad, aceptamos diversos métodos de pago seguros y confiables. Elige la opción que mejor se ajuste a tus necesidades.
+    </p>
+
+    <!-- Logos de Métodos de Pago -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center justify-items-center">
+
+      <!-- Pago en Oficina -->
+      <div class="flex flex-col items-center group">
+        <div class="bg-gray-800 p-4 rounded-lg shadow-md transition transform group-hover:scale-105 hover:shadow-orange-500/50 hover:shadow-lg hover:bg-gray-700">
+          <img src="/images/oficina.png" alt="AKI PAGO" class="w-20 h-20 object-contain" />
+        </div>
+        <span class="mt-3 text-sm text-gray-400">Pago en Oficina</span>
+      </div>
+
+      <!-- Pago mediante link -->
+      <div class="flex flex-col items-center group">
+        <div class="bg-gray-800 p-4 rounded-lg shadow-md transition transform group-hover:scale-105 hover:shadow-blue-500/50 hover:shadow-lg hover:bg-gray-700">
+          <img src="/images/enlace-pago.jpg" alt="AKI PAGO" class="w-20 h-20 object-contain" />
+        </div>
+        <span class="mt-3 text-sm text-gray-400">AKI PAGO</span>
+      </div>
+
+      <!-- Transferencia Bancaria -->
+      <div class="flex flex-col items-center group">
+        <div class="bg-gray-800 p-4 rounded-lg shadow-md transition transform group-hover:scale-105 hover:shadow-indigo-500/50 hover:shadow-lg hover:bg-gray-700">
+          <img src="/images/banco-cuscatlan.jpeg" alt="AKI PAGO" class="w-20 h-20 object-contain" />
+        </div>
+        <span class="mt-3 text-sm text-gray-400">AKI PAGO</span>
+      </div>
+
+      <!-- AKI PAGO -->
+      <div class="flex flex-col items-center group">
+        <div class="bg-gray-800 p-4 rounded-lg shadow-md transition transform group-hover:scale-105 hover:shadow-green-500/50 hover:shadow-lg hover:bg-gray-700">
+          <img src="/images/akipago.jpg" alt="AKI PAGO" class="w-20 h-20 object-contain" />
+        </div>
+        <span class="mt-3 text-sm text-gray-400">AKI PAGO</span>
+      </div>
+
+      <!-- Suscripción Automática -->
+      <div class="flex flex-col items-center group">
+        <div class="bg-gray-800 p-4 rounded-lg shadow-md transition transform group-hover:scale-105 hover:shadow-purple-500/50 hover:shadow-lg hover:bg-gray-700">
+          <img src="/images/suscripcion-automatico.jpg" alt="AKI PAGO" class="w-20 h-20 object-contain" />
+        </div>
+        <span class="mt-3 text-sm text-gray-400">AKI PAGO</span>
+      </div>
+    </div>
+
+    <!-- Botón opcional -->
+    <div class="mt-12">
+      <a href="#contrata" class="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-full inline-block transition duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-orange-500/20"> 
+        Contrata Ahora
+      </a>
+    </div>
+  </div>
+</section>
+
+  <!-- Speed Test -->
+  <section id="speedtest" class="py-20 px-4 bg-gray-900 text-center">
+    <h2 class="text-3xl font-bold mb-4">¿Sabes cuán rápido es tu internet?</h2>
+    <p class="mb-6 text-gray-300">Descarga nuestra herramienta gratuita para medir tu velocidad de internet.</p>
+    <div class="max-w-md mx-auto mb-6">
+      <img src="/images/speedtest.png" alt="Tablero de prueba de velocidad" class="rounded-lg shadow-lg w-full h-auto" />
+    </div>
+    <a href="/speedtest/speedtest.apk" class="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-full font-semibold inline-block transition">Descargar Speed Test</a>
+    <a href="http://speedtest.opticalplay.com:3031/" target="_blank" class="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-full font-semibold inline-block transition">Speed Test Web</a> 
+  </section>
+
+  <!-- Contrata Ahora -->
+  <section id="contrata" class="py-20 px-4 bg-gray-800 text-center">
+    <h2 class="text-3xl font-bold mb-4">¡Empieza tu viaje por el cosmos digital!</h2>
+    <p class="text-gray-300 mb-6">Únete a DigitalPlay hoy y comienza a disfrutar de internet de alta velocidad sin interrupciones.</p>
+    <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más informacións%20de%20sus%20servicios" target="_blank" class="bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-full font-semibold inline-block transition">Contáctanos para Contratar</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-500 py-8 text-center">
+    <p>&copy; 2025 DigitalPlay. Todos los derechos reservados.</p>
+    <p class="mt-2 text-sm">Conectándote al futuro desde el presente.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
