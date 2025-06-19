@@ -21,277 +21,280 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="bg-gray-900 text-white font-sans">
-
-  <!-- Navbar -->
-  <header class="bg-gray-800 shadow-md sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-3 py-3 flex justify-between items-center">
-  <!-- Logo -->
-    <div class="flex items-center space-x-3">
-        <img src="./images/icons/logo.png" alt="Logo OpticalPlay" class="h-20 w-auto object-contain" />
-    </div>
-      <nav class="hidden md:flex space-x-6">
-        <a href="#inicio" class="hover:text-orange-400 transition">Inicio</a> 
-        <a href="#sobre-nosotros" class="hover:text-orange-400 transition">Sobre Nosotros</a>
-        <a href="#servicios" class="hover:text-orange-400 transition">Servicios</a>
-        <a href="#planes" class="hover:text-orange-400 transition">Planes</a>
-        <a href="#metodos-pago" class="hover:text-orange-400 transition">Pagos</a>
-        <a href="#speedtest" class="hover:text-orange-400 transition">Speed Test</a>
-        <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más informacións%20de%20sus%20servicios" target="_blank" class="bg-orange-500 hover:bg-orange-600 px-5 py-2 rounded-full font-medium transition">Contrata Ahora</a>
-      </nav>
-      <button id="menu-toggle" class="md:hidden text-white focus:outline-none">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </button>
-    </div>
-    <div id="mobile-menu" class="hidden md:hidden bg-gray-700 px-4 pb-4 space-y-2">
-      <a href="#inicio" class="block py-2 hover:text-orange-400 transition">Inicio</a>
-      <a href="#sobre-nosotros" class="block py-2 hover:text-orange-400 transition">Sobre Nosotros</a>
-      <a href="#servicios" class="block py-2 hover:text-orange-400 transition">Servicios</a>
-      <a href="#planes" class="block py-2 hover:text-orange-400 transition">Planes</a>
-      <a href="metodos-pago" class="hover:text-orange-400 transition">Pagos</a>
-      <a href="#speedtest" class="block py-2 hover:text-orange-400 transition">Speed Test</a>
-      <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más informacións%20de%20sus%20servicios" class="block mt-3 bg-orange-500 hover:bg-orange-600 py-2 px-4 rounded-full font-medium">Contrata Ahora</a>
-    </div>
-  </header>
-
-  <!-- Hero Section -->
-  <section id="inicio" class="py-20 px-4 text-center bg-gray-900">
-    <div class="max-w-3xl mx-auto">
-      <h1 class="text-4xl md:text-5xl font-bold mb-4">Internet ultrarrápido que te lleva al espacio.</h1>
-      <p class="text-lg text-gray-300 mb-8">Únete a DigitalPlay y experimenta la conexión más rápida del universo.</p>
-      <a href="#planes" class="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-full text-white font-semibold transition">Ver Planes Disponibles</a>
-    </div>
-    <div class="mt-12">
-      <img src="./images/img1.jpg" alt="Astronauta navegando con internet" class="mx-auto rounded-lg shadow-xl max-w-full h-auto" />
-    </div>
-  </section>
-
-  <!-- Sobre Nosotros -->
-  <section id="sobre-nosotros" class="py-20 px-4 bg-gray-800 text-center">
-    <div class="max-w-4xl mx-auto">
-      <h2 class="text-3xl font-bold mb-8">Sobre Nosotros</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        <div class="text-left">
-          <p class="text-gray-300 leading-relaxed">En DigitalPlay somos una empresa dedicada a brindar servicios de internet de alta velocidad mediante tecnología de fibra óptica. Nuestra misión es conectar hogares y empresas con una red estable, segura y ultrarrápida.</p>
-          <p class="text-gray-300 leading-relaxed mt-4">Con años de experiencia en telecomunicaciones, nos especializamos en ofrecer soluciones modernas y confiables para todo tipo de necesidades digitales. ¡Llevamos tu conexión al infinito y más allá!</p>
+    
+    <!-- Navbar -->
+    <header class="bg-gray-800 shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-3 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center space-x-3">
+                <img src="./images/icons/logo.png" alt="Logo OpticalPlay" class="h-20 w-auto object-contain" />
+            </div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#inicio" class="hover:text-orange-400 transition">Inicio</a> 
+                <a href="#sobre-nosotros" class="hover:text-orange-400 transition">Sobre Nosotros</a>
+                <a href="#servicios" class="hover:text-orange-400 transition">Servicios</a>
+                <a href="#planes" class="hover:text-orange-400 transition">Planes</a>
+                <a href="#metodos-pago" class="hover:text-orange-400 transition">Pagos</a>
+                <a href="#speedtest" class="hover:text-orange-400 transition">Speed Test</a>
+                <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más informacións%20de%20sus%20servicios" target="_blank" class="bg-orange-500 hover:bg-orange-600 px-5 py-2 rounded-full font-medium transition">Contrata Ahora</a>
+            </nav>
+            <button id="menu-toggle" class="md:hidden text-white focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
         </div>
-        <div>
-          <img src="./images/astronauta.jpg" alt="Equipo profesional" class="rounded-lg shadow-lg w-full h-auto" />
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-700 px-4 pb-4 space-y-2">
+            <a href="#inicio" class="block py-2 hover:text-orange-400 transition">Inicio</a>
+            <a href="#sobre-nosotros" class="block py-2 hover:text-orange-400 transition">Sobre Nosotros</a>
+            <a href="#servicios" class="block py-2 hover:text-orange-400 transition">Servicios</a>
+            <a href="#planes" class="block py-2 hover:text-orange-400 transition">Planes</a>
+            <a href="#metodos-pago" class="block py-2 hover:text-orange-400 transition">Pagos</a>
+            <a href="#speedtest" class="block py-2 hover:text-orange-400 transition">Speed Test</a>
+            <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más informacións%20de%20sus%20servicios" target="_blank" class="block mt-3 bg-orange-500 hover:bg-orange-600 text-center rounded-full font-medium">Contrata Ahora</a>
         </div>
-      </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- Servicios -->
-  <section id="servicios" class="py-20 px-4 bg-gray-900 text-center">
-    <h2 class="text-3xl font-bold mb-10">Nuestros Servicios</h2>
-    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div class="bg-gray-800 p-6 rounded-lg shadow-lg transform transition hover:-translate-y-1">
-        <svg class="w-12 h-12 mx-auto text-orange-500 mb-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M13 10V3L4 14h7v7l9-11h-7z" />
-        </svg>
-        <h3 class="text-xl font-semibold mb-2">Fibra Óptica</h3>
-        <p class="text-gray-300">Internet de ultra alta velocidad con latencia mínima.</p>
-      </div>
-      <div class="bg-gray-800 p-6 rounded-lg shadow-lg transform transition hover:-translate-y-1">
-        <svg class="w-12 h-12 mx-auto text-orange-500 mb-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-        <h3 class="text-xl font-semibold mb-2">Conexión 24/7</h3>
-        <p class="text-gray-300">Red operativa las 24 horas del día, los 7 días de la semana.</p>
-      </div>
-      <div class="bg-gray-800 p-6 rounded-lg shadow-lg transform transition hover:-translate-y-1">
-        <svg class="w-12 h-12 mx-auto text-orange-500 mb-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-        </svg>
-        <h3 class="text-xl font-semibold mb-2">Soporte Técnico</h3>
-        <p class="text-gray-300">Atención personalizada para resolver cualquier inconveniente.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Planes -->
-  <section id="planes" class="py-20 px-4 bg-gray-800 text-center">
-    <h2 class="text-3xl font-bold mb-10">Nuestros Planes</h2>
-    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div class="bg-gray-700 border border-gray-600 p-6 rounded-lg shadow-lg transform transition hover:-translate-y-1">
-        <h3 class="text-xl font-semibold mb-2">Bronce</h3>
-        <p class="text-sm text-gray-300 mb-4">Ideal para uso básico en el hogar.</p>
-        <ul class="text-left text-sm text-gray-300 space-y-2 mb-6">
-          <li>• Fibra óptica</li>
-          <li>• Velocidad estándar</li>
-          <li>• Soporte básico</li>
-        </ul>
-        <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más informacións%20de%20sus%20servicios" target="_blank" class="block bg-orange-500 hover:bg-orange-600 py-2 px-4 rounded-full">Contrata Ahora</a> 
-      </div>
-      <div class="bg-gray-700 border border-gray-600 p-6 rounded-lg shadow-lg transform transition scale-105">
-        <h3 class="text-xl font-semibold mb-2">Plata</h3>
-        <p class="text-sm text-gray-300 mb-4">Perfecto para usuarios avanzados y pequeñas empresas.</p>
-        <ul class="text-left text-sm text-gray-300 space-y-2 mb-6">
-          <li>• Fibra óptica</li>
-          <li>• Velocidad media-alta</li>
-          <li>• Soporte técnico prioritario</li>
-        </ul>
-        <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más informacións%20de%20sus%20servicios" target="_blank" class="block bg-orange-500 hover:bg-orange-600 py-2 px-4 rounded-full">Contrata Ahora</a>
-      </div>
-      <div class="bg-gray-700 border border-gray-600 p-6 rounded-lg shadow-lg transform transition hover:-translate-y-1">
-        <h3 class="text-xl font-semibold mb-2">Oro</h3>
-        <p class="text-sm text-gray-300 mb-4">Diseñado para grandes empresas y conexiones críticas.</p>
-        <ul class="text-left text-sm text-gray-300 space-y-2 mb-6">
-          <li>• Fibra óptica</li>
-          <li>• Velocidad máxima</li>
-          <li>• Soporte VIP 24/7</li>
-        </ul>
-        <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más informacións%20de%20sus%20servicios" target="_blank" class="block bg-orange-500 hover:bg-orange-600 py-2 px-4 rounded-full">Contrata Ahora</a>
-      </div>
-    </div>
-  </section>
-
-<!-- Sección Métodos de Pago -->
-<section id="metodos-pago" class="py-20 px-4 bg-gray-900 text-center">
-  <div class="max-w-5xl mx-auto">
-    <!-- Título -->
-    <h2 class="text-3xl font-bold mb-4">Formas de Pago Aceptadas</h2>
-    <p class="text-gray-400 max-w-2xl mx-auto mb-12">
-      Para tu comodidad, aceptamos diversos métodos de pago seguros y confiables. Elige la opción que mejor se ajuste a tus necesidades.
-    </p>
-
-    <!-- Logos de Métodos de Pago -->
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center justify-items-center">
-
-      <!-- Pago en Oficina -->
-      <div class="flex flex-col items-center group">
-        <div class="bg-gray-800 p-4 rounded-lg shadow-md transition transform group-hover:scale-105 hover:shadow-orange-500/50 hover:shadow-lg hover:bg-gray-700">
-          <img src="./images/oficina.png" alt="AKI PAGO" class="w-20 h-20 object-contain" />
+    <!-- Hero Section -->
+    <section id="inicio" class="py-20 px-4 text-center bg-gray-900">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Internet ultrarrápido que te lleva al espacio</h1>
+            <p class="text-lg text-gray-300 mb-8">Únete a DigitalPlay y experimenta la conexión más rápida del universo</p>
+            <a href="#planes" class="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-full text-white font-semibold transition">Ver Planes Disponibles</a>
         </div>
-        <span class="mt-3 text-sm text-gray-400">Pago en Oficina</span>
-      </div>
-
-      <!-- Pago mediante link -->
-      <div class="flex flex-col items-center group">
-        <div class="bg-gray-800 p-4 rounded-lg shadow-md transition transform group-hover:scale-105 hover:shadow-blue-500/50 hover:shadow-lg hover:bg-gray-700">
-          <img src="./images/enlace-pago.jpg" alt="AKI PAGO" class="w-20 h-20 object-contain" />
+        <div class="mt-12">
+            <img src="./images/img1.jpg" alt="Astronauta navegando con internet" class="mx-auto rounded-lg shadow-xl max-w-full h-auto" />
         </div>
-        <span class="mt-3 text-sm text-gray-400">Mediante link</span>
-      </div>
+    </section>
 
-      <!-- Transferencia Bancaria -->
-      <div class="flex flex-col items-center group">
-        <div class="bg-gray-800 p-4 rounded-lg shadow-md transition transform group-hover:scale-105 hover:shadow-indigo-500/50 hover:shadow-lg hover:bg-gray-700">
-          <img src="./images/banco-cuscatlan.jpeg" alt="AKI PAGO" class="w-20 h-20 object-contain" />
+    <!-- Sobre Nosotros -->
+    <section id="sobre-nosotros" class="py-20 px-4 bg-gray-800 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Sobre Nosotros</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="text-left">
+                    <p class="text-gray-300 leading-relaxed">En DigitalPlay somos una empresa dedicada a brindar servicios de internet de alta velocidad mediante tecnología de fibra óptica. Nuestra misión es conectar hogares y empresas con una red estable, segura y ultrarrápida.</p>
+                    <p class="text-gray-300 leading-relaxed mt-4">Con años de experiencia en telecomunicaciones, nos especializamos en ofrecer soluciones modernas y confiables para todo tipo de necesidades digitales. ¡Llevamos tu conexión al infinito y más allá!</p>
+                </div>
+                <div>
+                    <img src="./images/astronauta.jpg" alt="Equipo profesional" class="rounded-lg shadow-lg w-full h-auto" />
+                </div>
+            </div>
         </div>
-        <span class="mt-3 text-sm text-gray-400">Transferencia Bancaria</span>
-      </div>
+    </section>
 
-      <!-- AKI PAGO -->
-      <div class="flex flex-col items-center group">
-        <div class="bg-gray-800 p-4 rounded-lg shadow-md transition transform group-hover:scale-105 hover:shadow-green-500/50 hover:shadow-lg hover:bg-gray-700">
-          <img src="./images/akipago.jpg" alt="AKI PAGO" class="w-20 h-20 object-contain" />
+    <!-- Servicios -->
+    <section id="servicios" class="py-20 px-4 bg-gray-900 text-center">
+        <h2 class="text-3xl font-bold mb-10">Nuestros Servicios</h2>
+        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg transform transition hover:-translate-y-1">
+                <svg class="w-12 h-12 mx-auto text-orange-500 mb-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                <h3 class="text-xl font-semibold mb-2">Fibra Óptica</h3>
+                <p class="text-gray-300">Internet de ultra alta velocidad con latencia mínima.</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg transform transition hover:-translate-y-1">
+                <svg class="w-12 h-12 mx-auto text-orange-500 mb-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <h3 class="text-xl font-semibold mb-2">Conexión 24/7</h3>
+                <p class="text-gray-300">Red operativa las 24 horas del día, los 7 días de la semana.</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg transform transition hover:-translate-y-1">
+                <svg class="w-12 h-12 mx-auto text-orange-500 mb-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <h3 class="text-xl font-semibold mb-2">Soporte Técnico</h3>
+                <p class="text-gray-300">Atención personalizada para resolver cualquier inconveniente.</p>
+            </div>
         </div>
-        <span class="mt-3 text-sm text-gray-400">AKI PAGO</span>
-      </div>
+    </section>
 
-      <!-- Suscripción Automática -->
-      <div class="flex flex-col items-center group">
-        <div class="bg-gray-800 p-4 rounded-lg shadow-md transition transform group-hover:scale-105 hover:shadow-purple-500/50 hover:shadow-lg hover:bg-gray-700">
-          <img src="./images/suscripcion-automatico.jpg" alt="AKI PAGO" class="w-20 h-20 object-contain" />
+    <!-- Planes -->
+    <section id="planes" class="py-20 px-4 bg-gray-800 text-center">
+        <h2 class="text-3xl font-bold mb-10">Nuestros Planes</h2>
+        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-gray-700 border border-gray-600 p-6 rounded-lg shadow-lg transform transition hover:-translate-y-1">
+                <h3 class="text-xl font-semibold mb-2">Bronce</h3>
+                <p class="text-sm text-gray-300 mb-4">Ideal para uso básico en el hogar.</p>
+                <ul class="text-left text-sm text-gray-300 space-y-2 mb-6">
+                    <li>• Fibra óptica</li>
+                    <li>• Velocidad estándar</li>
+                    <li>• Soporte básico</li>
+                </ul>
+                <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más informacións%20de%20sus%20servicios" target="_blank" class="block bg-orange-500 hover:bg-orange-600 py-2 px-4 rounded-full">Contrata Ahora</a> 
+            </div>
+            <div class="bg-gray-700 border border-gray-600 p-6 rounded-lg shadow-lg transform transition scale-105">
+                <h3 class="text-xl font-semibold mb-2">Plata</h3>
+                <p class="text-sm text-gray-300 mb-4">Perfecto para usuarios avanzados y pequeñas empresas.</p>
+                <ul class="text-left text-sm text-gray-300 space-y-2 mb-6">
+                    <li>• Fibra óptica</li>
+                    <li>• Velocidad media-alta</li>
+                    <li>• Soporte técnico prioritario</li>
+                </ul>
+                <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más informacións%20de%20sus%20servicios" target="_blank" class="block bg-orange-500 hover:bg-orange-600 py-2 px-4 rounded-full">Contrata Ahora</a>
+            </div>
+            <div class="bg-gray-700 border border-gray-600 p-6 rounded-lg shadow-lg transform transition hover:-translate-y-1">
+                <h3 class="text-xl font-semibold mb-2">Oro</h3>
+                <p class="text-sm text-gray-300 mb-4">Diseñado para grandes empresas y conexiones críticas.</p>
+                <ul class="text-left text-sm text-gray-300 space-y-2 mb-6">
+                    <li>• Fibra óptica</li>
+                    <li>• Velocidad máxima</li>
+                    <li>• Soporte VIP 24/7</li>
+                </ul>
+                <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más informacións%20de%20sus%20servicios" target="_blank" class="block bg-orange-500 hover:bg-orange-600 py-2 px-4 rounded-full">Contrata Ahora</a>
+            </div>
         </div>
-        <span class="mt-3 text-sm text-gray-400">Suscripción Automatica</span>
-      </div>
-    </div>
+    </section>
 
-    <!-- Botón opcional -->
-    <div class="mt-12">
-      <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más informacións%20de%20sus%20servicios" target="_blank" class="block bg-orange-500 hover:bg-orange-600 py-2 px-4 rounded-full" class="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-full inline-block transition duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-orange-500/20"> 
-        Contrata Ahora
-      </a>
-    </div>
-  </div>
-</section>
+    <!-- Sección Métodos de Pago -->
+    <section id="metodos-pago" class="py-20 px-4 bg-gray-900 text-center">
+        <div class="max-w-5xl mx-auto">
+            <!-- Título -->
+            <h2 class="text-3xl font-bold mb-4">Formas de Pago Aceptadas</h2>
+            <p class="text-gray-400 max-w-2xl mx-auto mb-12">
+                Para tu comodidad, aceptamos diversos métodos de pago seguros y confiables. Elige la opción que mejor se ajuste a tus necesidades.
+            </p>
 
-  <!-- Speed Test -->
-  <section id="speedtest" class="py-20 px-4 bg-gray-900 text-center">
-    <h2 class="text-3xl font-bold mb-4">¿Sabes cuán rápido es tu internet?</h2>
-    <p class="mb-6 text-gray-300">Descarga nuestra herramienta gratuita para medir tu velocidad de internet.</p>
-    <div class="max-w-md mx-auto mb-6">
-      <img src="./images/speedtest.png" alt="Tablero de prueba de velocidad" class="rounded-lg shadow-lg w-full h-auto" />
-    </div>
-    <a href="./speedtest/speedtest.apk" class="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-full font-semibold inline-block transition">Descargar Speed Test</a>
-    <a href="http://speedtest.opticalplay.com:3031/" target="_blank" class="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-full font-semibold inline-block transition">Speed Test Web</a> 
-  </section>
+            <!-- Logos de Métodos de Pago -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center justify-items-center">
 
-  <!-- Contrata Ahora -->
-  <section id="contrata" class="py-20 px-4 bg-gray-800 text-center">
-    <h2 class="text-3xl font-bold mb-4">¡Empieza tu viaje por el cosmos digital!</h2>
-    <p class="text-gray-300 mb-6">Únete a DigitalPlay hoy y comienza a disfrutar de internet de alta velocidad sin interrupciones.</p>
-    <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más informacións%20de%20sus%20servicios" target="_blank" class="bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-full font-semibold inline-block transition">Contáctanos para Contratar</a>
-  </section>
+                <!-- Pago en Oficina -->
+                <div class="flex flex-col items-center group">
+                    <div class="bg-gray-800 p-4 rounded-lg shadow-md transition transform group-hover:scale-105 hover:shadow-orange-500/50 hover:shadow-lg hover:bg-gray-700">
+                        <img src="./images/oficina.png" alt="AKI PAGO" class="w-20 h-20 object-contain" />
+                    </div>
+                    <span class="mt-3 text-sm text-gray-400">Pago en Oficina</span>
+                </div>
 
-  
+                <!-- Pago mediante link -->
+                <div class="flex flex-col items-center group">
+                    <div class="bg-gray-800 p-4 rounded-lg shadow-md transition transform group-hover:scale-105 hover:shadow-blue-500/50 hover:shadow-lg hover:bg-gray-700">
+                        <img src="./images/enlace-pago.jpg" alt="AKI PAGO" class="w-20 h-20 object-contain" />
+                    </div>
+                    <span class="mt-3 text-sm text-gray-400">Mediante link</span>
+                </div>
 
-<!-- Footer -->
-<footer id="contacto" class="bg-gray-900 text-gray-400 py-12 px-4">
-  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
+                <!-- Transferencia Bancaria -->
+                <div class="flex flex-col items-center group">
+                    <div class="bg-gray-800 p-4 rounded-lg shadow-md transition transform group-hover:scale-105 hover:shadow-indigo-500/50 hover:shadow-lg hover:bg-gray-700">
+                        <img src="./images/banco-cuscatlan.jpeg" alt="AKI PAGO" class="w-20 h-20 object-contain" />
+                    </div>
+                    <span class="mt-3 text-sm text-gray-400">Transferencia Bancaria</span>
+                </div>
 
-    <!-- Logo y Descripción -->
-    <div class="space-y-4">
-      <div class="flex items-center space-x-3">
-        <img src="./images/icons/logo.png" alt="Logo OpticalPlay" class="h-20 w-auto object-contain" />
-    </div>
-      <p class="text-sm">
-        Conectamos hogares y empresas con fibra óptica de alta velocidad. Únete a la revolución digital.
-      </p>
-    </div>
+                <!-- AKI PAGO -->
+                <div class="flex flex-col items-center group">
+                    <div class="bg-gray-800 p-4 rounded-lg shadow-md transition transform group-hover:scale-105 hover:shadow-green-500/50 hover:shadow-lg hover:bg-gray-700">
+                        <img src="./images/akipago.jpg" alt="AKI PAGO" class="w-20 h-20 object-contain" />
+                    </div>
+                    <span class="mt-3 text-sm text-gray-400">AKI PAGO</span>
+                </div>
 
-    <!-- Enlaces rápidos -->
-    <div>
-      <h3 class="text-white font-semibold mb-4">Enlaces Rápidos</h3>
-      <ul class="space-y-2">
-        <li><a href="#inicio" class="hover:text-orange-500 transition">Inicio</a></li>
-        <li><a href="#sobre-nosotros" class="hover:text-orange-500 transition">Sobre Nosotros</a></li>
-        <li><a href="#servicios" class="hover:text-orange-500 transition">Servicios</a></li>
-        <li><a href="#planes" class="hover:text-orange-500 transition">Planes</a></li>
-        <li><a href="#metodos-pago" class="hover:text-orange-500 transition">Métodos de Pago</a></li>
-        <li><a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más informacións%20de%20sus%20servicios" target="_blank" class="hover:text-orange-500 transition">Contrata Ahora</a></li>
-      </ul>
-    </div>
+                <!-- Suscripción Automática -->
+                <div class="flex flex-col items-center group">
+                    <div class="bg-gray-800 p-4 rounded-lg shadow-md transition transform group-hover:scale-105 hover:shadow-purple-500/50 hover:shadow-lg hover:bg-gray-700">
+                        <img src="./images/suscripcion-automatico.jpg" alt="AKI PAGO" class="w-20 h-20 object-contain" />
+                    </div>
+                    <span class="mt-3 text-sm text-gray-400">Suscripción Automatica</span>
+                </div>
+            </div>
+            <!-- Botón opcional -->
+            <div class="mt-12">
+                <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más informacións%20de%20sus%20servicios" target="_blank" class="block bg-orange-500 hover:bg-orange-600 py-2 px-4 rounded-full" class="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-full inline-block transition duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-orange-500/20"> 
+                    Contrata Ahora
+                </a>
+            </div>
+        </div>
+    </section>
 
-    <!-- Redes Sociales -->
-    <div>
-      <h3 class="text-white font-semibold mb-4">Síguenos</h3>
-      <p class="text-sm mb-4">Encuéntranos en nuestras redes sociales y mantente informado.</p>
-      <div class="flex justify-center md:justify-start space-x-4 text-xl">
-        <!-- Facebok -->
-        <a href="https://www.facebook.com/p/DigitalPlay-61553466805868/?locale=es_LA" target="_blank" class="text-gray-400 hover:text-blue-500 transition">
-          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.512-4.669 1.313 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-          </svg>
+    <!-- Speed Test -->
+    <section id="speedtest" class="py-20 px-4 bg-gray-900 text-center">
+        <h2 class="text-3xl font-bold mb-4">¿Sabes la velocidad de tu internet?</h2>
+        <p class="mb-6 text-gray-300">Descarga nuestra herramienta gratuita para medir tu velocidad de internet.</p>
+        <div class="max-w-md mx-auto mb-6">
+            <img src="./images/speedtest.png" alt="Tablero de prueba de velocidad" class="rounded-lg shadow-lg w-full h-auto" />
+        </div>
+        <!-- Descargar APK -->
+        <a href="./speedtest/speedtest.apk" class="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-full font-semibold inline-block transition transform hover:-translate-y-1">
+            Descargar Speed Test
         </a>
+
+        <!-- Speed Test Web -->
+        <a href="http://speedtest.opticalplay.com:3031/" target="_blank" class="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-full font-semibold inline-block transition transform hover:-translate-y-1">
+            Speed Test Web
+        </a>
+    </section>
+
+    <!-- Contrata Ahora -->
+    <section id="contrata" class="py-20 px-4 bg-gray-800 text-center">
+        <h2 class="text-3xl font-bold mb-4">¡Empieza tu viaje por el cosmos digital!</h2>
+        <p class="text-gray-300 mb-6">Únete a DigitalPlay hoy y comienza a disfrutar de internet de alta velocidad sin interrupciones.</p>
+        <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más informacións%20de%20sus%20servicios" target="_blank" class="bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-full font-semibold inline-block transition">Contáctanos para Contratar</a>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="bg-gray-900 text-gray-400 py-12 px-4">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
+
+            <!-- Logo y Descripción -->
+            <div class="space-y-4">
+                <div class="flex items-center space-x-3">
+                    <img src="./images/icons/logo.png" alt="Logo OpticalPlay" class="h-20 w-auto object-contain" />
+                </div>
+                <p class="text-sm">
+                    Conectamos hogares y empresas con fibra óptica de alta velocidad. Únete a la revolución digital.
+                </p>
+            </div>
+
+            <!-- Enlaces rápidos -->
+            <div>
+                <h3 class="text-white font-semibold mb-4">Enlaces Rápidos</h3>
+                <ul class="space-y-2">
+                    <li><a href="#inicio" class="hover:text-orange-500 transition">Inicio</a></li>
+                    <li><a href="#sobre-nosotros" class="hover:text-orange-500 transition">Sobre Nosotros</a></li>
+                    <li><a href="#servicios" class="hover:text-orange-500 transition">Servicios</a></li>
+                    <li><a href="#planes" class="hover:text-orange-500 transition">Planes</a></li>
+                    <li><a href="#metodos-pago" class="hover:text-orange-500 transition">Métodos de Pago</a></li>
+                    <li><a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más informacións%20de%20sus%20servicios" target="_blank" class="hover:text-orange-500 transition">Contrata Ahora</a></li>
+                </ul>
+            </div>
+
+            <!-- Redes Sociales -->
+            <div>
+                <h3 class="text-white font-semibold mb-4">Síguenos</h3>
+                <p class="text-sm mb-4">Encuéntranos en nuestras redes sociales y mantente informado.</p>
+                <div class="flex justify-center md:justify-start space-x-4 text-xl">
+                    <!-- Facebok -->
+                    <a href="https://www.facebook.com/p/DigitalPlay-61553466805868/?locale=es_LA" target="_blank" class="text-gray-400 hover:text-blue-500 transition">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.512-4.669 1.313 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
         
-        <!-- Whatsapp -->
-        <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más informacións%20de%20sus%20servicios" target="_blank" class="text-gray-400 hover:text-green-500 transition">
-            <svg class="w-6 h-6" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
-            </svg>
-        </a>
+                    <!-- Whatsapp -->
+                    <a href="https://wa.me/76727605?text=Hola!%20Me%20gustaria recibir más informacións%20de%20sus%20servicios" target="_blank" class="text-gray-400 hover:text-green-500 transition">
+                        <svg class="w-6 h-6" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                        </svg>
+                    </a>
 
-        <!-- Instagram -->
-        <a href="https://www.instagram.com/digitalplay_sv?igsh=eWJtNnlnNnhtamlw" target="_blank" class="text-gray-400 hover:text-red-500 transition">
-            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.646.07-4.85.07-3.205 0-3.585-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.059-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.44 1.44c.795 0 1.441-.645 1.441-1.44s-.646-1.44-1.44-1.44z"/>
-            </svg>
-        </a>
-      </div>
-    </div>
-  </div>
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/digitalplay_sv?igsh=eWJtNnlnNnhtamlw" target="_blank" class="text-gray-400 hover:text-red-500 transition">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.646.07-4.85.07-3.205 0-3.585-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.059-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.44 1.44c.795 0 1.441-.645 1.441-1.44s-.646-1.44-1.44-1.44z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
 
-  <!-- Copyright -->
-  <div class="mt-10 pt-6 border-t border-gray-800 text-sm text-center text-gray-500">
-    <p>&copy; 2025 OpticalPlay. Todos los derechos reservados.</p>
-  </div>
-</footer>
-
+        <!-- Copyright -->
+        <div class="mt-10 pt-6 border-t border-gray-800 text-sm text-center text-gray-500">
+            <p>&copy; 2025 OpticalPlay. Todos los derechos reservados.</p>
+        </div>
+    </footer>
   <script src="script.js"></script>
 </body>
 </html>
